@@ -31,6 +31,18 @@ using namespace std;
 class Solution
 {
 public:
-    vector<int> searchRange(vector<int> &nums, int target) {
-int start
+    vector<int> searchRange(vector<int> &nums, int target)
+    {
+        int start = 0;
+        int end = nums.size() - 1;
+        int mid;
+        for (int i = 0; i <= nums.size(); i++)
+    {
+        mid = (start + end) / 2; // midpoint
+        if (nums[mid] == target)     // condition if the target is at the mid
+        {
+            return {mid};
+        }
+        }
     };
+}
