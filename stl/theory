@@ -1,0 +1,34 @@
+The Standard Template Library or STL in C++ is a collection of template classes and template functions that provide a generic way of programming. It is a library of container classes, algorithms, and iterators.
+
+--> It is commonly used for efficiently programming data structures, algorithms, and functions. Some built-in data structures include arrays, vectors, queues, etc.
+
+Components of STL in C++
+There are four major components of STL in C++:
+
+-->Containers
+-->Iterators
+-->Algorithms
+-->Function objects or Functors
+
+
+Containers : 
+A container is a holder object that stores other objects as elements. It is used to implement different data structures.
+They are implemented as class templates (templates use data types as parameters), allowing greater flexibility in the types supported as elements.
+The containers manage storage space for its elements and provide member functions to access them directly or through iterators.
+They replicate the most commonly used data structures like queues (queue), dynamic arrays (vector), stacks (stack), linked lists (list), queues (queue), heaps (priority_queue), trees (set), associative arrays (map), and many others.
+
+There are 4 types of containers of STL in C++:
+
+1. Sequence Containers - Array - Vector - Deque - List - Forward List
+
+2. Associative Containers - Set - MultiSet - Map - Multimap
+
+3. Unordered Associative Containers - Unordered Set - Unordered Multiset - Unordered Map - Unordered Multimap
+
+4. Container Adapters - Stack - Queue - Priority Queue
+
+You can also choose the most suitable C++ STL container that matches your needs. Different criteria used for the selection are:
+
+The functionality offered by the container.
+
+The efficiency of some members. It is especially true for sequence containers, which offer complex trade- offs between inserting/removing and accessing elements.
